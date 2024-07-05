@@ -16,6 +16,7 @@ form{
     border-radius: 20px;
     width: 350px;
     background-color: #737FB2;
+    margin-top: 25px;
 }
 
 form h2{
@@ -57,4 +58,20 @@ input, textarea{
 
 .boton:hover{
     background-color: #2940BB;
+}
+
+.maps{
+    margin-left: 20px;
+}
+
+.maps h3{
+    color:white;
+    font-family: "Jura", sans-serif;
+}
+
+.maps p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
 }
