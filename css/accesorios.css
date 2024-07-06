@@ -109,6 +109,14 @@ main {
     gap: 20px;
 }
 
+.products-grid button {
+    padding: 15px;
+    font-size: 10x;
+    background-color:rgb(254, 108, 25);
+    color:rgb(245, 245, 245);
+    border: rgb(254, 108, 25);
+}
+
 .product {
     border: 3px solid #2940BB;
     padding: 200px;
