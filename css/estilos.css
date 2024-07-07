@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
+
 .header{
     background-color: #FE6C19;
 
@@ -17,6 +18,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-family: "Inter", sans-serif;
+
 }
 
 .header nav ul{
@@ -49,3 +52,73 @@ a:hover{
     display: block;
 
 }
+
+footer{
+    width: 100%;
+    background-color: #646159;
+}
+
+
+.footer .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.footer .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .grupo-1 .box figure img{
+    width: 200px;
+}
+
+.footer .grupo-1 .box h3{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.footer .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 15px;
+}
+
+.footer .grupo-1 .red-social i{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: white;
+    border-radius: 60%;
+    margin-right: 10px;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.footer .grupo-1 .red-social i:hover{
+    background-color: #2940BB;
+    
+}
+
+.footer .grupo-2{
+    background-color: #1E1D1B;
+    color: white;
+    padding: 15px 10px;
+    text-align: center;
+}
+
+@media(max-width:991px)
+{
+    
+}
+    
