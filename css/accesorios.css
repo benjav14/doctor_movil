@@ -75,6 +75,28 @@ nav ul {
 }
 
 
+.Cargador{
+    height: px;
+    width: px;
+    margin: -15px 0px 0px -15px
+}
+.audifonos{
+    height: 210px;
+    width: 190px;
+    margin: 30px 0px 0px -15px
+}
+
+.cable{
+    height: 210px;
+    width: 190px;
+    margin: -15px 0px 0px -15px
+}
+
+.smartwatch{
+    height: 210px;
+    width: 190px;
+    margin: -15px 0px 0px -15px
+}
 
 
 
@@ -110,14 +132,23 @@ main {
 
 .products-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(399px, 1fr));
     gap: 20px;
 }
 
+.products-grid button {
+    padding: 15px;
+    font-size: 10x;
+    background-color:rgb(254, 108, 25);
+    color:rgb(245, 245, 245);
+    border: rgb(254, 108, 25);
+}
+
 .product {
-    border: 1px solid #141313dc;
-    padding: 10px;
+    border: 3px solid #2940BB;
+    padding: 20px;
     text-align: center;
+    border-radius: 25px;
 }
 
 .contact-info {
