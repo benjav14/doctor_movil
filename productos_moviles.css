@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jura:wght@300..700&display=swap');
+
+
+section h1{
+    font-family: "Jura", sans-serif;
+    text-align: center;
+}
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Inter", sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -84,14 +93,22 @@ main {
 
 .products-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(399px, 1fr));
     gap: 20px;
 }
-
+.products-grid button{
+    padding: 15px;
+    font-size: 10px;
+    background-color: rgb(258, 108, 25);
+    color: rgb(245,245, 245);
+    border: rgb(258, 108, 25);
+    border-radius: 15px;
+}
 .product {
-    border: 1px solid #ccc;
-    padding: 10px;
+    border: 3px solid #2940bb;
+    padding: 20px;
     text-align: center;
+    border-radius: 25px;
 }
 
 .contact-info {
@@ -116,6 +133,37 @@ main {
     width: 20px;
     height: 20px;
     margin-right: 10px;
+}
+
+.Samsung{
+height: px;
+width: px;
+margin: -15px 0px 0px 24px;
+}
+.Honor
+{
+    height: px;
+    width: px;
+    margin: -15px 0px 0px -88px;
+}
+.Motorola
+{
+    height: px;
+    width: px;
+    margin: -15px 0px 0px -15px;
+}
+.Xiaomi
+{
+    height: px;
+    width: px;
+    margin: -15px 0px 0px -15px;
+
+}
+.ZTE
+{
+    height: px;
+    width: px;
+    margin: -15px 0px 0px -15px;
 }
 
 footer {
