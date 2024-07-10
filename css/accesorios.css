@@ -146,8 +146,8 @@ main {
 }
 
 .products-grid button {
-    padding: 15px;
-    font-size: 10px;
+    padding: 20px;
+    font-size: 15px;
     background-color:rgb(254, 108, 25);
     color:rgb(245, 245, 245);
     border: rgb(254, 108, 25);
@@ -160,6 +160,16 @@ main {
     text-align: center;
     border-radius: 25px;
 }
+
+h2{ 
+    color: #2940BB;
+}
+
+p{
+    color: #2940BB;
+}
+
+
 
 .contact-info {
     display: flex;
