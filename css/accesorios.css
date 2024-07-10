@@ -161,6 +161,16 @@ main {
     border-radius: 25px;
 }
 
+h2{ 
+    color: #2940BB;
+}
+
+p{
+    color: #2940BB;
+}
+
+
+
 .contact-info {
     display: flex;
     justify-content: space-between;
