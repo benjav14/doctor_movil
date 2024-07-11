@@ -147,7 +147,7 @@ main {
 
 .products-grid button {
     padding: 20px;
-    font-size: 15px;
+    font-size: 20px;
     background-color:rgb(254, 108, 25);
     color:rgb(245, 245, 245);
     border: rgb(254, 108, 25);
@@ -169,6 +169,9 @@ p{
     color: #2940BB;
 }
 
+h1{
+    color: #2940BB;
+}
 
 
 .contact-info {
