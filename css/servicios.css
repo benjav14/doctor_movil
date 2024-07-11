@@ -108,20 +108,24 @@ main {
     height: 100%;
     width: 100%;
 }
+
 .Horario{
     text-align: center; 
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    padding-left: 50px;
 }
 
-
+.container-maps{
+    display: flex;
+}
 .contact-info {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    
 }
 
 .contact-logo img {
