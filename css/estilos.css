@@ -154,6 +154,7 @@ footer{
 }
 .logos-marcas{
     display: flex;
+    padding-left: 200px;
 }
 
 .marcas li{
@@ -162,6 +163,8 @@ footer{
 .marcas img{
     width: 150px;
     height: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .mejores-celulares{
@@ -176,8 +179,10 @@ footer{
     padding-bottom: 40px;
     text-align: center;
 }
+
 .celulares{
     display: flex;
+    padding-left: 200px;
 }
 
 .mejores-celulares li{
@@ -185,6 +190,6 @@ footer{
     align-content: center;
 }
 .mejores-celulares img{
-    width: 150px;
+    width: 250px;
     height: 300px;
 }
