@@ -117,3 +117,74 @@ footer{
     text-align: center;
 }
 
+.slider-frame{
+    width:100%;
+    height: auto;
+    margin: 0 auto 0;
+    overflow: hidden;
+    animation: slide 16s infinite alternate ease-in-out;
+}
+
+.slider-frame ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+}
+
+.slider-frame li{
+    list-style: none;
+    width: 100%;
+}
+
+.slider-frame img{
+    width: 100%;
+}
+
+.marcas{
+    background-color: #BEF9D9;
+    height: 200px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    margin: 20px auto 20px;
+}
+
+.marcas h2{
+    padding-bottom: 40px;
+    text-align: center;
+}
+.logos-marcas{
+    display: flex;
+}
+
+.marcas li{
+    list-style: none;
+}
+.marcas img{
+    width: 150px;
+    height: 100px;
+}
+
+.mejores-celulares{
+    background-color: #BEF9D9;
+    height: 400px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    margin: 20px auto 20px;
+}
+
+.mejores-celulares h2{
+    padding-bottom: 40px;
+    text-align: center;
+}
+.celulares{
+    display: flex;
+}
+
+.mejores-celulares li{
+    list-style: none;
+    align-content: center;
+}
+.mejores-celulares img{
+    width: 150px;
+    height: 300px;
+}
