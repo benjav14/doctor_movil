@@ -231,3 +231,22 @@ footer{
     color: #807070;
     text-align: center;
 }
+
+.container-vs{
+    font-family: "Jura", sans-serif;
+    background-color: #F8F8F8;
+    display: flex;
+    margin: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container-vs h2{
+    color: #807070;
+    text-align: center;
+}
+
+.container-vs p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
