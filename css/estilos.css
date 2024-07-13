@@ -234,19 +234,62 @@ footer{
 
 .container-vs{
     font-family: "Jura", sans-serif;
-    background-color: #F8F8F8;
     display: flex;
     margin: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
+.vision{
+    background-color: #F8F8F8;
+    margin-right: 15px;
+}
+
+.mision{
+    background-color: #F8F8F8;
+    margin-left: 15px;
+}
 .container-vs h2{
     color: #807070;
     text-align: center;
+    padding-top: 30px;
 }
 
 .container-vs p{
     margin-left: 20px;
     margin-right: 20px;
+    padding-bottom: 30px;
 }
+
+.container-valores{
+    font-family: "Jura", sans-serif;
+    background-color: #F8F8F8;
+    margin: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container-valores h2{
+    color: #807070;
+    text-align: center;
+}
+.colum-1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.colum-2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.container-valores h3{
+    text-align: center;
+    color: #807070;
+    padding: 20px;
+    margin-left: 140px;
+    margin-right: 150px;
+}
+
