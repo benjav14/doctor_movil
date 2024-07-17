@@ -2,8 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jura:wght@300..700&display=swap');
 
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+body{
+    min-height: 100vh;
 }
 
 .header{
@@ -268,6 +272,26 @@ footer{
     padding-bottom: 30px;
 }
 
+.valores {
+    font-family: "Jura", sans-serif;
+    background-color: #F8F8F8;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.colum{
+    padding: 20px;
+    margin: 0 10px;
+    width: 400px;
+}
+
+.icon{
+    height: 70px;
+    width: 70px;
+}
 .container-valores{
     font-family: "Jura", sans-serif;
     background-color: #F8F8F8;
@@ -280,13 +304,8 @@ footer{
     color: #807070;
     text-align: center;
 }
-.colum-1{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}
-
-.colum-2{
+.colum-2,
+.colum-4{
     display: flex;
     text-align: center;
     justify-content: center;
@@ -300,3 +319,23 @@ footer{
     margin-right: 150px;
 }
 
+.container-pago{
+    font-family: "Jura", sans-serif;
+    background-color: #F8F8F8;
+    margin: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container-pago h3{
+    text-align: center;
+    color: #807070;
+    padding: 20px;
+    margin-left: 140px;
+    margin-right: 150px;
+}
+
+.container-pago h2{
+    color: #807070;
+    text-align: center;
+}
