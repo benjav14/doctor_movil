@@ -272,7 +272,7 @@ footer{
     padding-bottom: 30px;
 }
 
-.valores {
+.valores-1, .valores-2 {
     font-family: "Jura", sans-serif;
     background-color: #F8F8F8;
     display: flex;
