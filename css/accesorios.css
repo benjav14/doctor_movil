@@ -85,9 +85,15 @@ nav ul {
 
 
 .Cargador{
-    height: px;
-    width: px;
+    height: 210px;
+    width: 190px;
     margin: -15px 0px 0px -15px
+}
+p{
+    margin-bottom: 50px;
+}
+img{
+    margin-bottom: 40px;
 }
 .audifonos{
     height: 210px;
@@ -128,76 +134,86 @@ main {
     padding: 20px;
 }
 
-.category-bar {
+
+body .card{
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
-    
+    align-items: center;
+    height: vh;
+    margin: 0;
+    background-color: #ffffff;
 }
 
-.category-bar button {
-    padding: 20px;
-    font-size: 25px;
-}
-
-.products-grid {
+.card-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(399px, 1fr));
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
+    width: 90%;
+    max-width: 1500px;
+    padding-left: 160px;
 }
 
-.products-grid button {
-    padding: 20px;
-    font-size: 20px;
-    background-color:rgb(254, 108, 25);
-    color:rgb(245, 245, 245);
-    border: rgb(254, 108, 25);
-    border-radius: 15px;
-}
-
-.product {
-    border: 3px solid #2940BB;
-    padding: 20px;
-    text-align: center;
-    border-radius: 25px;
-}
-
-h2{ 
-    color: #2940BB;
-}
-
-p{
-    color: #2940BB;
-}
-
-h1{
-    color: #2940BB;
-}
-
-
-.contact-info {
+.card {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    border: 2px solid #180adf;
+    border-radius: 8px;
+    text-align: center;
 }
 
-.contact-logo img {
-    width: 50px;
-    height: 50px;
+.card-title {
+    margin: 20px 0 10px;
+    font-size: 24px;
+    color: #180adf;
 }
 
-.contact-details img {
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
+.card-text {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #0330f8;
+    flex-grow: 1;
 }
 
-.social-media img {
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
+p{
+    color:blue
 }
+
+.card-img {
+    width: 200px;
+    height: auto;
+    border-radius: 0 0 8px 8px;
+    margin-bottom: 20px;
+}
+
+.card-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ff7300;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card-btn:hover {
+    background-color: #0056b3;
+}
+
+.accesorios{
+    display: block;
+    padding: 10px 20px;
+    font-size: 26px;
+    color: #fff;
+    background-color: #ff7300;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
 
 footer {
     background-color: rgb(217, 217, 217);
