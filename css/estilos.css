@@ -219,12 +219,18 @@ footer{
     text-align: center;
     padding-bottom: 20px;
 }
-.container-phone button{
-    text-align: center;
+
+.btn{
+    display: flex;
+    align-items: center;
     justify-content: center;
+}
+
+.btn button{
     background-color: #FE6C19;
     border-radius: 10px;
 }
+
 
 .container-nosotros{
     font-family: "Jura", sans-serif;
