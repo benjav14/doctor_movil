@@ -112,6 +112,27 @@ main {
     text-align: center;
     border-radius: 25px;
 }
+a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+
+
+h2{ 
+    color: #2940BB;
+}
+
+p{
+    color: #2940BB;
+}
+
+h1{
+    color: #2940BB;
+}
+
+
 
 .contact-info {
     display: flex;
@@ -140,7 +161,7 @@ main {
 .Samsung{
 height: 400px;
 width: 400px;
-margin: -15px 0px 0px 24px;
+margin: -15px 0px 0px 67px;
 }
 .Honor
 {
