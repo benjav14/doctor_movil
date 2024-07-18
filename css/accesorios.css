@@ -178,13 +178,18 @@ body .card{
 }
 
 p{
-    color:blue
+    color:blue;
+}
+h1{
+    color:blue;
+    margin-bottom: 50px;
+    border-radius: 0 0 8px 8px;
+
 }
 
 .card-img {
     width: 200px;
     height: auto;
-    border-radius: 0 0 8px 8px;
     margin-bottom: 20px;
 }
 
@@ -203,14 +208,26 @@ p{
 }
 
 .accesorios{
-    display: block;
     padding: 10px 20px;
     font-size: 26px;
     color: #fff;
-    background-color: #ff7300;
-    border: none;
+    background-color: #D9D9D9;
+    border: 10px;
     border-radius: 5px;
     cursor: pointer;
+    text-decoration: none;
+}
+
+.container-grit{
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    margin-bottom: 60px;
+
+}
+.accesorios button{
+    background-color: rgb(204, 0, 255);
+    margin-top: 20px;
 }
 
 
