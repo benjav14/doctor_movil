@@ -1,189 +1,304 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Doctor Movil</title>
-    <link rel="stylesheet" href="css/estilos.css">
-    <script src="https://kit.fontawesome.com/e9edbd4c41.js" crossorigin="anonymous"></script>
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doctor Móvil</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body class="grid-container">
-    <header class="header">        
-        <nav>
-            <div>
-                <img class="logo-menu" src="img/logos/doctor_movil_logo_cabecera.png" alt="logo">
-            </div>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Productos</a>
-                    <ul>
-                        <li><a href="productos_moviles.html">Celulares</a></li>
-                        <li><a href="productos_accesorios.html">Accesorios</a></li>
-                    </ul>
-                </li>
-                <li><a href="servicios.html">Servicios</a></li>
-                <li><a href="contactanos.html">Contáctanos</a></li>
+
+<body>
+  <!-- menú de navegación-->
+  <nav class="navbar navbar-expand-sm navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand ms-5" href="#">
+        <img src="img/logos/doctor_movil_logo_cabecera.png" alt="logo-menu">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="flase">
+              Productos
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Móviles</a></li>
+              <li><a class="dropdown-item" href="#">Accesorios</a></li>
             </ul>
-        </nav>
-    </header>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contáctanos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    <main class="main">
-        <section>
-            <div class="container-slider">
-                <div class="slide">
-                  <ul>
-                    <li><img src="img/inicio/Slider1.png" alt=""></li>
-                    <li><img src="img/inicio/Slider2.png" alt=""></li>
-                    <li><img src="img/inicio/Slider3.png" alt=""></li>
-                    <li><img src="img/inicio/Slider4.png" alt=""></li>
-                  </ul>
-                </div>
-        </section>
+   <!-- Carrusel-->
+   <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-interval="5000">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/inicio/Slider8.png" class="d-block w-100" alt="slider1">
+      </div>
+      <div class="carousel-item" data-bs-interval="6000">
+        <img src="img/inicio/Slider6.png" class="d-block w-100" alt="slider2">
+      </div>
+      <div class="carousel-item" data-bs-interval="6000">
+        <img src="img/inicio/Slider9.png" class="d-block w-100" alt="slider3">
+      </div>
+      <div class="carousel-item">
+        <img src="img/inicio/Slider7.png" class="d-block w-100" alt="slider4">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 
-        
-        <section class="container-marcas">
-            <div class="marcas">
-                <h2>Las mejores marcas en equipos</h2>
-                <ul class="logos-marcas">
-                    <div class="logo1"><li><img src="img/inicio/Samsung-Logo.jpg" alt=""></li></div>
-                    <div class="logo2"><li><img src="img/inicio/Honor logo.png" alt=""></li></div>
-                    <div class="logo3"><li><img src="img/inicio/motorola-logo.png" alt=""></li></div>
-                    <div class="logo4"><li><img src="img/inicio/Xiaomi-Logo.png" alt=""></li></div>
-                    <div class="logo5"><li><img src="img/inicio/ZTE-logo.png" alt=""></li></div>
-                </ul>
-            </div>
-        </section>
-        
-        <section>
-            <div class="mejores-celulares">
-                <h2>Los mejores pensados en ti</h2>
-                <ul class="celulares">
-                    <div class="logo1"><li><img src="img/inicio/cel1.png" alt=""></li></div>
-                    <div class="logo2"><li><img src="img/inicio/cel2.png" alt=""></li></div>
-                    <div class="logo3"><li><img src="img/inicio/cel3.png" alt=""></li></div>
-                    <div class="logo4"><li><img src="img/inicio/cel4.png" alt=""></li></div>
-                </ul>
-            </div>
-        </section>
-        
-        <section class="container-phone">
-            <div>
-                <h2>¿En busca de celular?</h2>
-                <p>“Doctor Móvil es el lugar perfecto para adquirir tu celular. <br>Contamos con una variada gama de equipos móviles y accesorios que lo complementan”</p>
-            </div>
-            <div class="btn">
-                <button><a href="productos_moviles.html">Adquiere el tuyo</a></button>
-            </div>
-        </section>
-        
-        <section class="container-nosotros">
-            <div>
-                <h2>Conoce más acerca de nosotros</h2>
-            </div>
-        </section>
-    
-        <section class="container-vs">
-            <div class="vision">
-                <h2>VISIÓN</h2>
-                <P>Ser el distribuidor líder en ventas de productos y servicios de vanguardia tecnológica de equipos móviles y accesorios.  Un distribuidor reconocido por su compromiso con la excelencia y la generación de valor.</P>
-            </div>
-            <div class="mision">
-                <h2>MISIÓN</h2>
-                <p>Ofrecer a nuestros clientes una experiencia de compra inolvidable y positiva en equipos móviles, basada en el conocimiento, el servicio y la capacitación; generando así valor agregado para los clientes.</p>
-            </div>
-        </section>
-    
-        <section>
-            <div class="container-valores">
-                <h2>VALORES</h2>
-                <div class="valores">
-                    <div class="colum">
-                        <img class="icon" src="img/inicio/integridad.png" alt="">
-                        <p>Integridad</p>
-                    </div>
-                    <div class="colum">
-                        <img class="icon" src="img/inicio/pertenencia.png" alt="">
-                        <p>Pertenencia</p>
-                    </div>
-                    <div class="colum">
-                        <img class="icon" src="img/inicio/pasion_exito.png" alt="">
-                        <p>Pasión por el éxito</p>
-                    </div>
-                </div>
-                <div class="valores">
-                    <div class="colum">
-                        <img class="icon" src="img/inicio/integridad.png" alt="">
-                        <p>Liderazgo</p>
-                    </div>
-                    <div class="colum">
-                        <img class="icon" src="img/inicio/pertenencia.png" alt="">
-                        <p>Excelencia en el servicio</p>
-                    </div>
-                    <div class="colum">
-                        <img class="icon" src="img/inicio/pasion_exito.png" alt="">
-                        <p>Confianza</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="container-pago">
-            <h2>Formas de pago</h2>
-            <div class="pagos">
-                <div class="credito">
-                    <p>Tarjetas de crédito</p>
-                    <img class="icon" src="img/inicio/visa.png" alt="">
-                    <img class="icon" src="img/inicio/mastercad.png" alt="">
-                    <img class="icon" src="img/inicio/american-express.png" alt="">
-                </div>
-                <div class="bancos">
-                    <p>Transferencia</p>
-                    <img class="icon" src="img/inicio/interbak.png" alt="">
-                    <img class="icon" src="img/inicio/bbva.png" alt="">
-                    <img class="icon" src="img/inicio/scotiabank.png" alt="">
-                    <img class="icon" src="img/inicio/bcp.png" alt="">
-                </div>
-                <div class="billeteras">
-                    <p>Billeteras digitales</p>
-                    <img class="icon" src="img/inicio/yape.png" alt="">
-                    <img class="icon" src="img/inicio/plin.png" alt="">
-                    <img class="icon" src="img/inicio/tunki.png" alt="">
-                    <img class="icon" src="img/inicio/agora.png" alt="">
-                </div>
-            
-            </div>
-        </section>
-    </main>
-    
-    <footer class="footer">
-        <div class="grupo-1">
-            <div class="box">
-                <figure>
-                    <img src="img/logos/doctor_movil_logo_footer.png" alt="logo footer">
-                </figure>
-            </div>
-            <div class="box">
-                <h3>Contáctanos</h3>
-                <p>999 999 999</p>
-                <p>info@doctormovil.com.pe</p>
-            </div>
-            <div class="box">
-                <h3>Síguenos en nuestras redes sociales</h3>
-                <div class="red-social">
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-square-instagram"></i>
-                    <i class="fa-brands fa-square-twitter"></i>
-                    <i class="fa-brands fa-youtube"></i>
-                </div>
-            </div>
+<!-- Sección1: marcas de equipos móviles-->
+<section class="my-3">
+  <div class="container-fluid bg-custom py-4 text-center">
+    <h2 class="py-1">Las mejores marcas en equipos</h2>
+    <div class="row">
+      <div class="col-sm-6 col-md-4 col-lg-2">
+        <div class="marcas">
+          <img src="img/inicio/Samsung-Logo.png" alt="samsung">
         </div>
-
-        <div class="grupo-2">
-            <small>&copy; 2024 <b>Doctor Móvil</b> - Todos los derechos reservados</small>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-2">
+        <div class="marcas">
+          <img src="img/inicio/Iphone-logo.png" alt="iphone">
         </div>
-    </footer>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-2">
+        <div class="marcas">
+          <img src="img/inicio/Honor logo.png" alt="honor">
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-2">
+        <div class="marcas">
+          <img src="img/inicio/motorola-logo.png" alt="motorola">
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-2">
+        <div class="marcas">
+          <img src="img/inicio/Xiaomi-Logo.png" alt="xiaomi">
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-2">
+        <div class="marcas">
+          <img src="img/inicio/ZTE-logo.png" alt="zte">
+        </div>
+      </div>
+    </div>
+  </div> 
+</section>  
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <!-- Sección2: mejores pensados en ti-->
+  <section class="my-3">
+    <div class="container-fluid bg-custom py-4 text-center">
+      <h2 class="py-2">Los mejores pensados en ti</h2>
+      <div class="row">
+        <div class="col-sm-6 col-lg-3">
+          <div class="celulares">
+            <img src="img/inicio/cel1.png" alt="samsung">
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="celulares">
+            <img src="img/inicio/cel2.png" alt="iphone">
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="celulares">
+            <img src="img/inicio/cel3.png" alt="honor">
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="celulares">
+            <img src="img/inicio/cel4.png" alt="motorola">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Sección 3: en busca de celular-->
+  <section class="my-2 phone">
+    <div class="container py-4 text-center">
+      <h2 class="py-3">¿En busca de celular?</h2>
+      <div class="row">
+        <div class="col">
+          <p>“Doctor Móvil es el lugar perfecto para adquirir tu celular.
+            <br>Contamos con una variada gama de equipos móviles accesorios que lo complementan”
+          </p>
+          <p>¡Aprovecha nuestra oferta exclusiva! Obtén un 10% de descuento en tu compra. Además, recibe un accesorio gratuito.</p>
+          <p>No esperes más para tener el mejor equipo móvil. ¡Haz clic y compra hoy!</p>
+          <button type="button" class="btn btn-danger btn-p m-2">Adquiere tu móvil aquí</button>
+        </div>
+        <div class="col">
+          <div>
+            <img src="img/inicio/busca_celular.png" alt="" >
+          </div>
+        </div>
+      </div>
+  </section>
+
+<!-- Sección 4: mision vision-->
+<section class="my-3 phone">
+  <div class="container py-4 text-center">
+    <h2 class="py-3">Conoce más acerca de nosotros</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <h3>Visión</h3>
+        <p>Ser el distribuidor líder en ventas de productos y servicios de vanguardia tecnológica de equipos móviles y accesorios. Un distribuidor reconocido por su compromiso con la excelencia y la generación de valor.</p>
+      </div>
+      <div class="col-md-6">
+        <h3>Misión</h3>
+        <p>Ofrecer a nuestros clientes una experiencia de compra inolvidable y positiva en equipos móviles, basada en el conocimiento, el servicio y la capacitación; generando así valor agregado para los clientes.</p>
+      </div>
+    </div>
+</section>
+
+
+<!-- Sección 5: valores-->
+<section class="my-2 valor">
+  <div class="container text-center">
+    <h2 class="py-3">Nuestros valores</h2>
+    <div class="row">
+      <div class="col-md-4 mt-2">
+        <div class="card">
+          <img src="img/inicio/integridad.png" class="card-img-top mx-auto d-block" alt="integridad">
+          <div class="card-body">
+            <p class="card-text">Integridad</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mt-2">
+        <div class="card">
+          <img src="img/inicio/pertenencia.png" class="card-img-top mx-auto d-block" alt="pertenencia">
+          <div class="card-body">
+            <p class="card-text">Pertenencia</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mt-2">
+        <div class="card">
+          <img src="img/inicio/pasion_exito.png" class="card-img-top mx-auto d-block" alt="exito">
+          <div class="card-body">
+            <p class="card-text">Pasión por el éxito</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-3">
+      <div class="col-md-4 mt-2">
+        <div class="card">
+          <img src="img/inicio/liderazgo.png" class="card-img-top mx-auto d-block" alt="liderazgo">
+          <div class="card-body">
+            <p class="card-text">Liderazgo</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mt-2">
+        <div class="card">
+          <img src="img/inicio/excelencia_servicio.png" class="card-img-top mx-auto d-block" alt="servicio">
+          <div class="card-body">
+            <p class="card-text">Excelencia en el servicio</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mt-2">
+        <div class="card">
+          <img src="img/inicio/confianza.png" class="card-img-top mx-auto d-block" alt="confianza">
+          <div class="card-body">
+            <p class="card-text">Confianza</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- footer-->
+<footer class="text-dark text-center text-white pt-5 pb-4">
+  <div class="container-fluid">
+   <div class="row">
+
+    <div class="col-xs-12 col-md-6 col-lg-3">
+      <img src="img/logos/doctor_movil_logo_footer.png" alt="">
+    </div>
+    <div class="col-xs-12 col-md-6 col-lg-3">
+      <h4>Nosotros</h4>
+      <hr>
+      <p>Somos una empresa tecnológica dedicada a la venta de equipos móviles de alta gama y accesorios de todas las marcas <br>
+      Brindamos servicio técnico de manera presencial y de manera remota llegando a todas partes del país.</p>
+    </div>
+    <div class="col-xs-12 col-md-6 col-lg-3">
+      <h4>Contacto</h4>
+      <hr>
+      <p>
+        <li class="fas fa-home me-3"></li> Av Prolongación 499
+      </p>
+      <p>
+        <li class="fas fa-phone me-3"></li> 999 999 999
+      </p>
+      <p>
+        <li class="fas fa-envelope me-3"></li> info@doctormovil.pe
+      </p>
+    </div>
+    <div class="col-xs-12 col-md-6 col-lg-3">
+      <h4>Nuestras redes</h4>
+      <hr>
+        <p>
+          <a href="#" class="text-reset">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </p>
+        <p>
+          <a href="#" class="text-reset">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </p>
+        <p>
+          <a href="#" class="text-reset">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </p>
+        <p>
+          <a href="#" class="text-reset">
+            <i class="fab fa-youtube"></i>
+          </a>
+        </p>
+      
+      
+    </div>
+   </div>
+    
+   <div class="text-center">
+    <small>&copy; 2024 <b>Doctor Móvil</b> - Todos los derechos reservados</small>
+   </div>
+  </div>
+</footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

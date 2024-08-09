@@ -1,342 +1,82 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jura:wght@300..700&display=swap');
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-body{
-    min-height: 100vh;
-}
-
-.header{
-    background-color: #FE6C19;
-
-}
-.logo-menu{
-    height: 60px;
-    width: 60px;
-    align-items: center;
-}
-  
-.header nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-family: "Inter", sans-serif;
-
-}
-
-.header nav ul{
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-}
-
-a{
-    text-decoration: none;
-    font-size: 20px;
-    color: white;
-    padding: 10px 20px;
-    display: block;
-}
-
-a:hover{
-    background: #2940BB;
-}
-
-.header nav ul li ul{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
+/* Estilos de menú de navegación */
+.navbar {
     background: #FE6C19;
-    display: none;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+  }
+
+.navbar-brand img{
+    width: 60px;
+    height: 60px;
 }
 
-.header nav ul li:hover >ul{
-    display: block;
+.nav-item {
+    margin-inline: 20px; 
+  }
 
-}
-
-footer{
-    width: 100%;
-    background-color: #646159;
-}
-
-
-.footer .grupo-1{
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 50px;
-    padding: 45px 0px;
-}
-
-.footer .grupo-1 .box figure{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.footer .grupo-1 .box figure img{
-    width: 200px;
-}
-
-.footer .grupo-1 .box h3{
-    color: white;
-    margin-bottom: 25px;
-    font-size: 20px;
-}
-
-.footer .grupo-1 .box p{
-    color: #efefef;
-    margin-bottom: 15px;
-}
-
-.footer .grupo-1 .red-social i{
-    display: inline-block;
-    text-decoration: none;
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
-    color: white;
-    border-radius: 60%;
-    margin-right: 10px;
-    text-align: center;
-    transition: all 300ms ease;
-}
-
-.footer .grupo-1 .red-social i:hover{
-    background-color: #2940BB;
-    
-}
-
-.footer .grupo-2{
-    background-color: #1E1D1B;
-    color: white;
-    padding: 15px 10px;
-    text-align: center;
-}
-
-.container-slider{
-    height: 100vh;
-    width: 100%;
-    display: grid;
-    place-content: center;
-}
-
-.slide{
-    width: 100%;
-    max-width: 1280px;
-    height: auto;
-    overflow: hidden;
-}
-
-.slide ul{
-    display: flex;
-    width: 400%;
-
-    animation: slide 15s infinite alternate ease-in-out;
-}
-
-@keyframes slide{
-    0% {margin-left: 0;}
-    20% {margin-left: 0;}
-
-    25% {margin-left: -100%;}
-    45% {margin-left: -100%;}
-
-    50% {margin-left: -200%;}
-    70% {margin-left: -200%;}
-
-    75% {margin-left: -300%;}
-    100% {margin-left: -300%;}
-}
-
-.marcas{
+/* Estilos de fondo de secciones */
+.bg-custom{
     background-color: #BEF9D9;
-    height: 200px;
-    padding-top: 25px;
-    padding-bottom: 10px;
-    margin: 20px auto 20px;
 }
 
-.marcas h2{
-    padding-bottom: 40px;
-    text-align: center;
+/* Estilos de títulos y parrafos */
+h2 , p{
     font-family: "Jura", sans-serif;
 }
-.logos-marcas{
-    display: flex;
-    justify-content: center;
-}
 
-.marcas li{
-    list-style: none;
-}
+/* Estilos de imagenes */
 .marcas img{
-    width: 150px;
-    height: 100px;
-    padding-left: 20px;
-    padding-right: 20px;
+    width: 120px;
+    height: 120px;
 }
 
-.mejores-celulares{
-    background-color: #BEF9D9;
-    height: 400px;
-    padding-top: 25px;
-    padding-bottom: 10px;
-    margin: 20px auto 20px;
-}
-
-.mejores-celulares h2{
-    padding-bottom: 40px;
-    text-align: center;
-    font-family: "Jura", sans-serif;
-}
-
-.celulares{
-    display: flex;
-    justify-content: center;
-}
-
-.mejores-celulares li{
-    list-style: none;
-    align-content: center;
-}
-.mejores-celulares img{
+.celulares img{
     width: 250px;
-    height: 300px;
+    height: 250px;
 }
 
-.container-phone{
-    background-color: #F8F8F8;
-    height: 220px;
-    padding-top: 25px;
-    padding-bottom: 10px;
-    margin: 20px auto 20px;
+.col img{
+    width: 350px;
+    height: 350px;
 }
 
-.container-phone h2{
-    font-family: "Jura", sans-serif;
-    color: #807070;
-    text-align: center;
-    padding: 20px;
-    
-}
-.container-phone p{
-    font-family: "Jura", sans-serif;
-    color: #807070;
-    text-align: center;
-    padding-bottom: 20px;
-}
-
-.btn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.btn button{
+.phone button{
     background-color: #FE6C19;
+    color: white;
+    border-radius: 5px;
+}
+
+.phone button:hover{
+    background-color: #ff5e00;
+}
+
+.phone .row{
+    align-items: center;
+}
+
+.phone img{
     border-radius: 10px;
 }
 
-
-.container-nosotros{
-    font-family: "Jura", sans-serif;
-    color: #807070;
-    text-align: center;
+.valor img{
+    width: 150px;
+    height: 150px;
 }
 
-.container-vs{
-    font-family: "Jura", sans-serif;
-    display: flex;
-    margin: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+/* Estilos de footer */
+footer img{
+    height: 150px;
+    width: 150px;
 }
 
-.vision{
-    background-color: #F8F8F8;
-    margin-right: 15px;
+footer{
+    background-color: #646159;
 }
 
-.mision{
-    background-color: #F8F8F8;
-    margin-left: 15px;
-}
-.container-vs h2, .container-pago h2{
-    color: #807070;
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 20px;
+footer .copyright{
+    background-color: black;
 }
 
-.container-vs p{
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-bottom: 30px;
-}
-
-.container-valores{
-    font-family: "Jura", sans-serif;
-    background-color: #F8F8F8;
-    margin: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.valores {
-    font-family: "Jura", sans-serif;
-    background-color: #F8F8F8;
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-}
-
-.colum{
-    padding: 20px;
-    margin: 0 10px;
-    width: 400px;
-}
-
-.icon{
-    height: 70px;
-    width: 70px;
-}
-
-.container-valores h2, .container-pago h2{
-    color: #807070;
-    text-align: center;
-    font-family: "Jura", sans-serif;
-}
-    
-.pagos {
-    font-family: "Jura", sans-serif;
-    background-color: #F8F8F8;
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-}
-
-.credito, .bancos, .billeteras {
-    font-family: "Jura", sans-serif;
-    background-color: #F8F8F8;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    margin-top: 20px;
-}
