@@ -1,41 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jura:wght@300..700&display=swap');
 
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: #2940BB;
-}
-
-form{
-    padding: 50px 55px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    border-radius: 20px;
-    width: 350px;
-    background-color: #737FB2;
-    margin-top: 25px;
-}
-
-form h2{
-    color: white;
-    font-size: 30px;
-    margin-bottom: 25px;
-    font-family: "Jura", sans-serif;
-}
-
-.input-group{
-    display: flex;
-    flex-direction: column;
-}
-
-input, textarea{
-    padding: 20px 14px;
-    margin-bottom: 20px;
-    border: 0;
-    border-radius: 10px;
+/* Estilos de menú de navegación */
+.navbar {
+    background: #FE6C19;
     font-family: "Inter", sans-serif;
+    font-size: 18px;
+  }
+
+.navbar-brand img{
+    width: 60px;
+    height: 60px;
+}
+
+.nav-item {
+    margin-inline: 20px;
+  }
+
+  /* Estilos de banner */
+.banner img{
+    width: 100%;
+}
+
+ /* Estilos de formulario */
+.contact img{
+    width: 200px;
+    height: 200px;
+}
+
+.form{
+    background-color: #2952BB;
+    border-radius: 10px;
+    color: white;
 }
 
 ::placeholder{
@@ -44,33 +40,13 @@ input, textarea{
     font-family: "Inter", sans-serif;
 }
 
-:focus{
-    outline: 2px solid #FE6C19;
+.form button{
+    background-color: white;
+    color: #2940BB;
+    border-radius: 5px;
 }
 
-.boton{
+.form button:hover{
     background-color: #FE6C19;
     color: white;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-.boton:hover{
-    background-color: #2940BB;
-}
-
-.maps{
-    margin-left: 20px;
-}
-
-.maps h3{
-    color:white;
-    font-family: "Jura", sans-serif;
-}
-
-.maps p{
-    text-align: center;
-    color: white;
-    font-size: 20px;
-    font-family: "Inter", sans-serif;
 }
