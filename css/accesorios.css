@@ -1,11 +1,34 @@
-.navbar-brand {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #ffffff;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jura:wght@300..700&display=swap');
+
+.navbar {
+    background: #FE6C19;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+  }
+
+.navbar-brand img{
+    width: 60px;
+    height: 60px;
 }
+
+.nav-item {
+    margin-inline: 20px; 
+  }
+
 .dropdown-menu a {
     color: #007bff;
 }
+
+.btn-w{
+    background-color:#FE6C19
+  }
+
+  .btn-group{
+    color: #ffffff;
+  }
+
+
 .header-text {
     text-align: center;
     font-size: 2rem;
@@ -34,7 +57,7 @@
 }
 .category-bar a {
     margin: 0 10px;
-    color: #007bff;
+    color: #ffffff;
     text-decoration: none;
 }
 

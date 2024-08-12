@@ -9,48 +9,54 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+    <nav class="navbar navbar-expand-sm navbar-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Doctor Movil</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="productosDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Productos
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="productosDropdown">
-                            <li><a class="dropdown-item" href="#">Móviles</a></li>
-                            <li><a class="dropdown-item" href="#">Características</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Servicios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contáctanos</a>
-                    </li>
+          <a class="navbar-brand ms-5" href="#">
+            <img src="img/logos/doctor_movil_logo_cabecera.png" alt="logo-menu">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="flase">
+                  Productos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="productos_moviles.html">Móviles</a></li>
+                  <li><a class="dropdown-item active" href="productos_accesorios.html">Accesorios</a></li>
                 </ul>
-            </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactanos.html">Contáctanos</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </nav>
+      </nav>
 
     <div class="header-text">
         Los mejores accesorios para ti
     </div>
 
-    <div class="category-bar">
-        <button  href="#"type="button" class="btn btn-outline-warning"><a href="#">Cargadores</a></button>
-        <button  href="#"type="button" class="btn btn-outline-warning"><a href="#">Audífonos</a> </button>
-        <button  href="#"type="button" class="btn btn-outline-warning"><a href="#">Cables</a></button>
-        <button  href="#"type="button" class="btn btn-outline-warning"><a href="#">Parlantes</a></button>
-        <button  href="#"type="button" class="btn btn-outline-warning"><a href="#">Smartwatch</a> </button>
+    <div class="category-bar ">
+      <div class="btn-group">
+        <a href="#" class="btn btn-info">Cargadores</a>
+        <a href="#" class="btn btn-secondary">Audífonos</a>
+        <a href="#" class="btn btn-secondary">Cables</a>
+        <a href="#" class="btn btn-secondary">Parlantes</a>
+        <a href="#" class="btn btn-secondary">Smartwatch</a>
+      </div>
     </div>
+ 
 
     <div class="container">
         <div class="row">
@@ -58,11 +64,11 @@
             <div class="col-md-3">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title text-center">Producto 1</h5>
-                        <p class="card-text text-center">Características del producto 1</p>
+                        <h5 class="card-title text-center">Apple</h5>
+                        <p class="card-text text-center">Adaptador de corriente USB - C DE 20W</p>
                         <img src="img/productos_accesorios/Cargador 1.png" class="card-img-top" alt="Producto 1">
-                        <p class="card-price text-center">Precio: $100</p>
-                        <a href="#" class="btn btn-warning mx-auto d-block ">Comprar</a>
+                        <p class="card-price text-center">Precio: S/. 99.00 </p>
+                        <a href="contactanos.html" class="btn btn-w mx-auto d-block">Comprar</a>
                     </div>
                 </div>
             </div>
@@ -70,41 +76,80 @@
             <div class="col-md-3">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title text-center">Producto 2</h5>
-                        <p class="card-text text-center">Características del producto 2</p>
+                        <h5 class="card-title text-center">Samsung</h5>
+                        <p class="card-text text-center">Cargador de pared+cable Samsung Power Delivery tipo C a tipo C,15W</p>
                         <img src="img/productos_accesorios/Cargador 2.png" class="card-img-top" alt="Producto 2">
-                        <p class="card-price text-center">Precio: $200</p>
-                        <a href="#" class="btn btn-warning mx-auto d-block">Comprar</a>
+                        <p class="card-price text-center">Precio: S/. 99.00 </p>
+                        <a href="contactanos.html" class="btn btn-w mx-auto d-block">Comprar</a>
                     </div>
                 </div>
             </div>
-
             <div class="col-md-3">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title text-center">Producto 3</h5>
-                        <p class="card-text text-center">Características del producto 3</p>
-                        <img src="img/productos_accesorios/Cargador 3.png" class="card-img-top" alt="Producto 3">
-                        <p class="card-price text-center">Precio: $300</p>
-                        <a href="#" class="btn btn-warning mx-auto d-block">Comprar</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title text-center">Producto 4</h5>
-                        <p class="card-text text-center">Características del producto 4</p>
-                        <img src="img/productos_accesorios/Cargador 4.png" class="card-img-top" alt="Producto 4">
-                        <p class="card-price text-center">Precio: $400</p>
-                        <a href="#" class="btn btn-warning mx-auto d-block">Comprar</a>
-                    </div>
+              <div class="card">
+                  <div class="card-body">
+                      <h5 class="card-title text-center">Samsung</h5>
+                      <p class="card-text text-center">Cargador de pared Samsung 1 puerto tipo C, 15W, carga rápida</p>
+                      <img src="img/productos_accesorios/Cargador 3.png" class="card-img-top" alt="Producto 1">
+                      <p class="card-price text-center">Precio: S/. 69.90 </p>
+                      <a href="contactanos.html" class="btn btn-w mx-auto d-block">Comprar</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Samsung</h5>
+                    <p class="card-text text-center">Cargador de pared + cable Samsung tipo C a tipo C, 25W, carga rápida</p>
+                    <img src="img/productos_accesorios/Cargador 4.png" class="card-img-top" alt="Producto 1">
+                    <p class="card-price text-center">Precio: S/. 159.90 </p>
+                    <a href="contactanos.html" class="btn btn-w mx-auto d-block">Comprar</a>
                 </div>
             </div>
         </div>
+        <div class="col-md-3">
+          <div class="card">
+              <div class="card-body">
+                  <h5 class="card-title text-center">Xiaomi</h5>
+                  <p class="card-text text-center">Cargador de Pared Xiaomi Mi 33W Usb-A Usb-c </p>
+                  <img src="img/productos_accesorios/Cargador 5.png" class="card-img-top" alt="Producto 1">
+                  <p class="card-price text-center">Precio: S/. 63.00 </p>
+                  <a href="contactanos.html" class="btn btn-w mx-auto d-block">Comprar</a>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title text-center">I2go</h5>
+                <p class="card-text text-center">Adaptador I2Go 20W Usb-C Bl Color	Blanco</p>
+                <img src="img/productos_accesorios/Cargador 6.png" class="card-img-top" alt="Producto 1">
+                <p class="card-price text-center">Precio: S/. 49.00 </p>
+                <a href="contactanos.html" class="btn btn-w mx-auto d-block">Comprar</a>
+            </div>
+        </div>
     </div>
-    
+            <div class="col-md-3">
+              <div class="card">
+                  <div class="card-body">
+                      <h5 class="card-title text-center">G Mobile</h5>
+                      <p class="card-text text-center">Cargador de pared G Mobile dual, 1 puerto usb, 1 puerto tipo c, 65W</p>
+                      <img src="img/productos_accesorios/Cargador 7.png" class="card-img-top" alt="Producto 1">
+                      <p class="card-price text-center">Precio: S/. 149.90 </p>
+                      <a href="contactanos.html" class="btn btn-w mx-auto d-block">Comprar</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title text-center">G Mobile</h5>
+                    <p class="card-text text-center">Cargador de pared G Mobile dual, 1 puerto usb, 1 puerto tipo c, 12W</p>
+                    <img src="img/productos_accesorios/Cargador 8.png" class="card-img-top" alt="Producto 1">
+                    <p class="card-price text-center">Precio: S/. 34.90 </p>
+                    <a href="contactanos.html" class="btn btn-w mx-auto d-block">Comprar</a>
+                </div>
+            </div>
+        </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>

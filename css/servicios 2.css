@@ -1,3 +1,17 @@
+.navbar {
+    background: #FE6C19;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+  }
+
+.navbar-brand img{
+    width: 60px;
+    height: 60px;
+}
+
+.nav-item {
+    margin-inline: 20px; 
+  }
 body {
     font-family: Arial, sans-serif;
 }
