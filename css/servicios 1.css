@@ -33,3 +33,16 @@ body {
     padding: 10px;
     border-radius: 5px;
 }
+
+footer img{
+    height: 150px;
+    width: 150px;
+}
+
+footer{
+    background-color: #646159;
+}
+
+footer .copyright{
+    background-color: black;
+}

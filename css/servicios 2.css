@@ -20,6 +20,11 @@ h2, h3, p, li {
     color: #2940BB; 
 }
 
+.tox{
+    color: #ffffff; 
+
+}
+
 .hero-image {
     background-image: url('https://via.placeholder.com/1200x500');
     background-size: cover;
@@ -36,4 +41,17 @@ h2, h3, p, li {
     height: 50px;
     color: aliceblue;
     margin-right:20px;
+}
+
+footer img{
+    height: 150px;
+    width: 150px;
+}
+
+footer{
+    background-color: #646159;
+}
+
+footer .copyright{
+    background-color: black;
 }
