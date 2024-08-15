@@ -60,6 +60,10 @@
     color: #ffffff;
     
   }
+  .btn-w:hover{
+    background-color: #FE6C19;
+    color:#ffffff
+  }
 footer img{
     height: 150px;
     width: 150px;
