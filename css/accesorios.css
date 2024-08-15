@@ -23,8 +23,13 @@
 .btn-w{
     background-color:#FE6C19;
     color: #ffffff;
-    
   }
+  .btn-w:hover{
+    background-color: #FE6C19;
+    color:#ffffff
+  }
+
+
 
   .btn-group{
     color: #ffffff;
