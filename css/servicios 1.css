@@ -34,6 +34,11 @@ body {
     border-radius: 5px;
 }
 
+.btn-w{
+    background-color: #FE6C19;
+    color:#fff
+}
+
 footer img{
     height: 150px;
     width: 150px;

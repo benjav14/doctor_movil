@@ -1,8 +1,18 @@
-.navbar-brand {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #ffffff;
+.navbar {
+    background: #FE6C19;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+  }
+
+.navbar-brand img{
+    width: 60px;
+    height: 60px;
 }
+
+.nav-item {
+    margin-inline: 20px; 
+  }
+
 .dropdown-menu a {
     color: #007bff;
 }
@@ -16,7 +26,12 @@
     border-radius: 15px;
     border-color: #007bff;
     margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
 }
+.card:hover {
+    transform: translateY( 0px) scale(1.05);
+}
+
 .card-title, .card-text, .card-price {
     color: #007bff;
 }
@@ -33,10 +48,31 @@
     margin: 20px 0;
 }
 .category-bar a {
-    margin: 0 10px;
+    margin: 0 -03px;
     color: #007bff;
     text-decoration: none;
 }
 .category-bar a:hover {
     text-decoration: underline;
+}
+.btn-w{
+    background-color:#FE6C19;
+    color: #ffffff;
+    
+  }
+  .btn-w:hover{
+    background-color: #FE6C19;
+    color:#ffffff
+  }
+footer img{
+    height: 150px;
+    width: 150px;
+}
+
+footer{
+    background-color: #646159;
+}
+
+footer .copyright{
+    background-color: black;
 }

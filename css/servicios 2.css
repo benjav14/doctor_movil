@@ -26,7 +26,6 @@ h2, h3, p, li {
 }
 
 .hero-image {
-    background-image: url('https://via.placeholder.com/1200x500');
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -35,12 +34,17 @@ h2, h3, p, li {
 
 .bx{
     border-radius: 50%;
-    background-color: rgb(255, 145, 0);
+    background-color: #FE6C19;
     border: #2940BB;
     width: 50px;
     height: 50px;
     color: aliceblue;
     margin-right:20px;
+}
+
+.btn-w{
+    background-color: #FE6C19;
+    color: #ffffff;
 }
 
 footer img{

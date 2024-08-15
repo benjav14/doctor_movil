@@ -21,8 +21,15 @@
 }
 
 .btn-w{
-    background-color:#FE6C19
+    background-color:#FE6C19;
+    color: #ffffff;
   }
+  .btn-w:hover{
+    background-color: #FE6C19;
+    color:#ffffff
+  }
+
+
 
   .btn-group{
     color: #ffffff;
@@ -42,7 +49,7 @@
     transition: transform 0.3s ease-in-out;
 }
 .card:hover {
-    transform: translateY(-10px) scale(1.05);
+    transform: translateY( 0px) scale(1.05);
 }
 .card-title, .card-text, .card-price {
     color: #007bff;
@@ -51,18 +58,18 @@
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
-.btn-primary {
-    background-color: #007bff;
-    border-color: #007bff;
+.btn-info {
+    background-color: #2BB9E5;
+    border-color: #2BB9E5;
+    color:#ffffff
 }
 .category-bar {
     text-align: center;
-    margin: 20px 0;
+    margin: 30px 0;
 }
 .category-bar a {
-    margin: 0 10px;
+    margin: 0 -3px;
     color: #ffffff;
-    text-decoration: none;
 }
 
 .category-bar a:hover {
