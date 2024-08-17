@@ -22,8 +22,12 @@
     width: 100%;
 }
 
-h2, h4, p{
+.contact, .map{
     font-family: "Jura", sans-serif;
+}
+
+.map{
+    color:white;
 }
 
 /* Estilos contenido de contactanos */
@@ -41,6 +45,10 @@ h2, h4, p{
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+.map{
+    background-color: #2940BB;;
 }
 
  /* Estilos de formulario */
@@ -71,7 +79,6 @@ h2, h4, p{
     background-color: #FE6C19;
     color: white;
 }
-
 
 /* Estilos de footer */
 footer img{
