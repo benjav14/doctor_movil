@@ -25,7 +25,7 @@
     color: #ffffff;
   }
   .btn-w:hover{
-    background-color: #FE6C19;
+    background-color: #ff5e00;
     color:#ffffff
   }
 
@@ -41,6 +41,7 @@
     font-size: 2rem;
     margin: 20px 0;
     color: #007bff;
+    font-family: "Jura", sans-serif;
 }
 .card {
     border-radius: 15px;
@@ -87,4 +88,8 @@ footer{
 
 footer .copyright{
     background-color: black;
+}
+
+.banner img{
+    width: 100%;
 }
