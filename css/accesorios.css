@@ -23,8 +23,13 @@
 .btn-w{
     background-color:#FE6C19;
     color: #ffffff;
-    
   }
+  .btn-w:hover{
+    background-color: #ff5e00;
+    color:#ffffff
+  }
+
+
 
   .btn-group{
     color: #ffffff;
@@ -36,6 +41,7 @@
     font-size: 2rem;
     margin: 20px 0;
     color: #007bff;
+    font-family: "Jura", sans-serif;
 }
 .card {
     border-radius: 15px;
@@ -63,12 +69,17 @@
     margin: 30px 0;
 }
 .category-bar a {
-    margin: 0 -3px;
+    margin: 0 2px;
     color: #ffffff;
 }
 
 .category-bar a:hover {
     text-decoration: underline;
+}
+
+
+.btn{
+    width: 150px;
 }
 
 footer img{
@@ -82,4 +93,8 @@ footer{
 
 footer .copyright{
     background-color: black;
+}
+
+.banner img{
+    width: 100%;
 }

@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jura:wght@300..700&display=swap');
+
+
+body{
+    font-family: "Jura", sans-serif;
+
+}
+
 .navbar {
     background: #FE6C19;
     font-family: "Inter", sans-serif;
@@ -12,9 +21,7 @@
 .nav-item {
     margin-inline: 20px; 
   }
-body {
-    font-family: Arial, sans-serif;
-}
+
 
 h2, h3, p, li {
     color: #2940BB; 
@@ -45,6 +52,18 @@ h2, h3, p, li {
 .btn-w{
     background-color: #FE6C19;
     color: #ffffff;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.btn-w:hover{
+    background-color: #ff5e00;
+    color:#fff
+}
+
+.btn{
+    font-family: "Inter", sans-serif;
+    width: 150px;
 }
 
 footer img{
@@ -54,6 +73,7 @@ footer img{
 
 footer{
     background-color: #646159;
+    font-family: "Inter", sans-serif;
 }
 
 footer .copyright{
