@@ -53,6 +53,11 @@ body {
     color:#fff;
 }
 
+
+.button{
+    width: 150px;
+}
+
 h4{
     font-family: "Inter", sans-serif;
 }
@@ -70,3 +75,4 @@ footer{
 footer .copyright{
     background-color: black;
 }
+

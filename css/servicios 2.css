@@ -63,6 +63,7 @@ h2, h3, p, li {
 
 .btn{
     font-family: "Inter", sans-serif;
+    width: 150px;
 }
 
 footer img{
