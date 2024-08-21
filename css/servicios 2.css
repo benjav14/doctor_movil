@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jura:wght@300..700&display=swap');
 
-
 body{
     font-family: "Jura", sans-serif;
 
 }
-
+/* Estilos de menú de navegación */
 .navbar {
     background: #FE6C19;
     font-family: "Inter", sans-serif;
@@ -22,23 +21,12 @@ body{
     margin-inline: 20px; 
   }
 
-
+/* Estilos de las letras */
 h2, h3, p, li {
     color: #2940BB; 
 }
 
-.tox{
-    color: #ffffff; 
-
-}
-
-.hero-image {
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 500px;
-}
-
+/* Estilos de los circulos*/
 .bx{
     border-radius: 50%;
     background-color: #FE6C19;
@@ -49,6 +37,7 @@ h2, h3, p, li {
     margin-right:20px;
 }
 
+/* Estilos de los botones */
 .btn-w{
     background-color: #FE6C19;
     color: #ffffff;
@@ -66,6 +55,8 @@ h2, h3, p, li {
     width: 150px;
 }
 
+
+/* Estilos del footer */
 footer img{
     height: 150px;
     width: 150px;
@@ -78,4 +69,7 @@ footer{
 
 footer .copyright{
     background-color: black;
+}
+.tox{
+    color: #ffffff; 
 }
